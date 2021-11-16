@@ -291,20 +291,28 @@ void menu(){
 	int luachon; 
 	char sobatky; 
 	do {
-		cout<<"================= MENU ====================";
-		cout<<endl<<"1. Nhap sinh vien vao danh sach.";
-		cout<<endl<<"2. Hien thi danh sach sinh vien.";
-		cout<<endl<<"3. Sap xep theo diem trung binh giam dan.";
-		cout<<endl<<"4. Xoa sinh vien theo STT.";
-		cout<<endl<<"5. Xoa toan bo danh sach sinh vien.";
-		cout<<endl<<"6. Tim kiem sinh vien theo ten.";
-		cout<<endl<<"7. Ghi ket qua vao file.";
-		cout<<endl<<"8. Doc file.(chua hoan thien chuc nang)";
-		cout<<endl<<"0. Thoat.";        
-		cout<<"\n===============______======================"<<endl;
-		cout<<endl<<"Ban chon?:\n "; 
+		cout <<"\t\t===================== Quan Ly Hoc Sinh ==================="<<endl;
+		cout <<"\t\t||		1. Nhap thong tin sinh vien.		||"<<endl;
+		cout <<"\t\t||------------------------------------------------------||"<<endl;
+		cout <<"\t\t||		2. Hien thi danh sach sinh vien. 	||"<<endl;
+		cout <<"\t\t||------------------------------------------------------||"<<endl;
+		cout <<"\t\t||		3. Sap xep theo diem trung binh giam dan||"<<endl;
+		cout <<"\t\t||------------------------------------------------------||"<<endl;
+		cout <<"\t\t||		4. Xoa hoc sinh theo so thu tu.		||"<<endl;
+		cout <<"\t\t||------------------------------------------------------||"<<endl;
+		cout <<"\t\t||		5. Xoa toan bo danh sach hoc sinh	||"<<endl;
+		cout <<"\t\t||------------------------------------------------------||"<<endl;
+		cout <<"\t\t||		6. Tim kiem sinh vien theo ten.		||"<<endl;
+		cout <<"\t\t||------------------------------------------------------||"<<endl;
+		cout <<"\t\t||		7. Ghi ket qua vao file.		||"<<endl;
+		cout <<"\t\t||------------------------------------------------------||"<<endl;
+		cout <<"\t\t||		8.Doc file.(chua hoan thien chuc nang)	||"<<endl;
+		cout <<"\t\t||------------------------------------------------------||"<<endl;
+		cout <<"\t\t||		0. THOAT!!				||"<<endl;
+		cout <<"\t\t=========================================================="<<endl;
+	
+		cout <<"\t\t\t\t\nVui long chon: ";
 		cin>>luachon; 
-		
 switch(luachon){
 			case 0:
 				exit(0);
